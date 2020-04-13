@@ -1,0 +1,118 @@
+[Legacy System Migration Workbench]
+LSMW Version Number : 4.0.0
+LSMW Version Date : 31.08.2004
+R/3 Installation Number : 0020807535
+R/3 System Id : MEP
+R/3 Release : 740
+R/3 Client : 555
+R/3 Operating System : Linux
+R/3 Database System : HDB
+R/3 Hostname : mghprd1
+User Id : PARTHA
+Date : 13.04.2020
+Time : 14:56:52
+Local Date : 13.04.2020
+Local Time : 14:56:52
+Local Timezone : UTC+6
+
+[Project Information]
+[Project Name     ] : Z_GL_CO
+[Project Text     ] : Mass Cost Elemnent Creation (Saif)
+
+/SAPDMC/LSGPRO                Z_GL_CO        SAIF        20190217
+/SAPDMC/LSGPROT               EZ_GL_CO        Mass Cost Elemnent Creation (Saif)
+
+[Recordings]
+
+[Recording        ] : KA01_CO
+[Recording Text   ] : Mass Cost Element Creation
+/SAPDMC/LSGBDC                Z_GL_CO        KA01_CO        0001                                        0000TKA01                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       0000000000                              000000000000000000
+/SAPDMC/LSGBDC                Z_GL_CO        KA01_CO        0002SAPLKMA4                                0200X                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           0000000000                              000000000000000000
+/SAPDMC/LSGBDC                Z_GL_CO        KA01_CO        0003                                        0000 BDC_CURSOR                                                                                                                          CSKBZ-KOKRS                                                                                                                                                                                                                                                                                                                                            0000000000                              000000000000000000
+/SAPDMC/LSGBDC                Z_GL_CO        KA01_CO        0004                                        0000 BDC_OKCODE                                                                                                                          =GRUN                                                                                                                                                                                                                                                                                                                                                  0000000000                              000000000000000000
+/SAPDMC/LSGBDC                Z_GL_CO        KA01_CO        0005                                        0000 CSKBZ-KOKRS                                                                                                                         MGHD                                                                                                                                KOKRS                         Controlling Area                                            CACCD                         KOKRS                          CSKBZ                         KOKRS                         0000000000TKA01                         000004000008000004CHARC
+/SAPDMC/LSGBDC                Z_GL_CO        KA01_CO        0006                                        0000 CSKBZ-KSTAR                                                                                                                         510121                                                                                                                              KSTAR                         Cost Element                                                KSTAR                         KSTAR                          CSKBZ                         KSTAR                         0000000000CSKA                          000010000020000010CHARC
+/SAPDMC/LSGBDC                Z_GL_CO        KA01_CO        0007                                        0000 CSKBZ-DATAB_ANFO                                                                                                                    01.01.2017                                                                                                                          DATAB_ANFO                    Valid-From Date                                             DATUM                         DATAB                          CSKBZ                         DATAB_ANFO                    0000000000                              000008000016000010DATSD
+/SAPDMC/LSGBDC                Z_GL_CO        KA01_CO        0008                                        0000 CSKBZ-DATBI_ANFO                                                                                                                    31.12.9999                                                                                                                          DATBI_ANFO                    Valid To Date                                               DATUM                         DATBI                          CSKBZ                         DATBI_ANFO                    0000000000                              000008000016000010DATSD
+/SAPDMC/LSGBDC                Z_GL_CO        KA01_CO        0009SAPLKMA4                                0299X                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           0000000000                              000000000000000000
+/SAPDMC/LSGBDC                Z_GL_CO        KA01_CO        0010                                        0000 BDC_OKCODE                                                                                                                          =BU                                                                                                                                                                                                                                                                                                                                                    0000000000                              000000000000000000
+/SAPDMC/LSGBDC                Z_GL_CO        KA01_CO        0011                                        0000 BDC_SUBSCR                                                                                                                          SAPLKMA4                                0300SUBSCREEN_EINZEL                                                                                                                                                                                                                                                                                           0000000000                              000000000000000000
+/SAPDMC/LSGBDC                Z_GL_CO        KA01_CO        0012                                        0000 BDC_CURSOR                                                                                                                          CSKBZ-KATYP                                                                                                                                                                                                                                                                                                                                            0000000000                              000000000000000000
+/SAPDMC/LSGBDC                Z_GL_CO        KA01_CO        0013                                        0000 CSKBZ-KATYP                                                                                                                         1                                                                                                                                   KATYP                         Cost element category                                       KATYP                         KATYP                          CSKBZ                         KATYP                         0000000000                              000002000004000002CHARC
+/SAPDMC/LSGBDCA               Z_GL_CO        KA01_CO        KA01                SAIF        SAIF        20190217
+/SAPDMC/LSGBDCS               Z_GL_CO        KA01_CO        01
+/SAPDMC/LSGBDCT               EZ_GL_CO        KA01_CO        Mass Cost Element Creation
+
+[Subproject Information]
+[Subproject       ] : Z_GL_CO
+[Subproject Text  ] : Mass Cost Elemnent Creation (Saif)
+
+/SAPDMC/LSGSUB                Z_GL_CO        Z_GL_CO        SAIF        20190217
+/SAPDMC/LSGSUBT               EZ_GL_CO        Z_GL_CO        Mass Cost Elemnent Creation (Saif)
+
+[Object Information]
+[Object           ] : Z_GL_C0
+[Object Text      ] : Mass Cost Elemnent Creation (Saif)
+
+/SAPDMC/LSOTXT                EZ_GL_CO        Z_GL_CO        Z_GL_C0        Mass Cost Elemnent Creation (Saif)
+/SAPDMC/LSOATT                Z_GL_CO        Z_GL_CO        Z_GL_C0                                                                                                                                                      00000000              SAIF        20190217
+
+[Object Information]
+[Object           ] : Z_GL_CO
+[Object Text      ] : Mass Cost Element Creation (Saif)
+
+/SAPDMC/LSOTXT                EZ_GL_CO        Z_GL_CO        Z_GL_CO        Mass Cost Element Creation (Saif)
+/SAPDMC/LSOATT                Z_GL_CO        Z_GL_CO        Z_GL_CO        02                                                                                                                                            00000068SAIF        X SAIF        20190217
+/SAPDMC/LSOSTR                Z_GL_CO        Z_GL_CO        Z_GL_CO        ZGLCO                         Mass Cost Element Creation (Saif)                                                         000101 00000000000000000000
+/SAPDMC/LSOFLD                Z_GL_CO        Z_GL_CO        Z_GL_CO        ZGLCO                         KOKRS                         0001C   004Controlling Area
+/SAPDMC/LSOFLD                Z_GL_CO        Z_GL_CO        Z_GL_CO        ZGLCO                         KSTAR                         0002C   010Cost Element
+/SAPDMC/LSOFLD                Z_GL_CO        Z_GL_CO        Z_GL_CO        ZGLCO                         DATAB_ANFO                    0003DDMY010DATAB_ANFO
+/SAPDMC/LSOFLD                Z_GL_CO        Z_GL_CO        Z_GL_CO        ZGLCO                         DATBI_ANFO                    0004DDMY010DATBI_ANFO
+/SAPDMC/LSOFLD                Z_GL_CO        Z_GL_CO        Z_GL_CO        ZGLCO                         KATYP                         0005C   002CElem category
+/SAPDMC/LSOREL                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       ZGLCO                         20190217SAIF
+/SAPDMC/LSOMAP                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATAB_ANFO                    0001ZGLCO                         DATAB_ANFO                    SAIF        20190217
+/SAPDMC/LSOMAP                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATBI_ANFO                    0001ZGLCO                         DATBI_ANFO                    SAIF        20190217
+/SAPDMC/LSOMAP                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       KATYP                         0001ZGLCO                         KATYP                         SAIF        20190217
+/SAPDMC/LSOMAP                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       KOKRS                         0001ZGLCO                         KOKRS                         SAIF        20190217
+/SAPDMC/LSOMAP                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       KSTAR                         0001ZGLCO                         KSTAR                         SAIF        20190217
+/SAPDMC/LSORUL                Z_GL_CO        Z_GL_CO        Z_GL_CO        0000__END_OF_TRANSACTION__                                      DFSAIF        20190217                                                                                                                        00000000
+/SAPDMC/LSORUL                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATAB_ANFO                    MVSAIF        20190217                                                                                                                        00000000
+/SAPDMC/LSORUL                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATBI_ANFO                    MVSAIF        20190217                                                                                                                        00000000
+/SAPDMC/LSORUL                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       KATYP                         MVSAIF        20190217                                                                                                                        00000000
+/SAPDMC/LSORUL                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       KOKRS                         MVSAIF        20190217                                                                                                                        00000000
+/SAPDMC/LSORUL                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       KSTAR                         MVSAIF        20190217                                                                                                                        00000000
+/SAPDMC/LSORUL                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       TABNAME                       DFSAIF        20190217                                                                                                                        00000000
+/SAPDMC/LSORUL                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       TCODE                         DFSAIF        20190217                                                                                                                        00000000
+/SAPDMC/LSORUL                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       __BEGIN_OF_RECORD__           DFSAIF        20190217                                                                                                                        00000000
+/SAPDMC/LSORUL                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       __END_OF_RECORD__             DFSAIF        20190217                                                                                                                        00000000
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0000__END_OF_TRANSACTION__                                      0001transfer_transaction.                                                   SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATAB_ANFO                    0001* Date Value as DDMMYYYY                                                SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATAB_ANFO                    0002KA01_CO-DATAB_ANFO+0(2) = ZGLCO-DATAB_ANFO+6.                           SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATAB_ANFO                    0003KA01_CO-DATAB_ANFO+2(2) = ZGLCO-DATAB_ANFO+4.                           SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATAB_ANFO                    0004KA01_CO-DATAB_ANFO+4(4) = ZGLCO-DATAB_ANFO.                             SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATAB_ANFO                    0005* Caution: Source field is longer than target field                     SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATBI_ANFO                    0001* Date Value as DDMMYYYY                                                SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATBI_ANFO                    0002KA01_CO-DATBI_ANFO+0(2) = ZGLCO-DATBI_ANFO+6.                           SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATBI_ANFO                    0003KA01_CO-DATBI_ANFO+2(2) = ZGLCO-DATBI_ANFO+4.                           SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATBI_ANFO                    0004KA01_CO-DATBI_ANFO+4(4) = ZGLCO-DATBI_ANFO.                             SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       DATBI_ANFO                    0005* Caution: Source field is longer than target field                     SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       KATYP                         0001KA01_CO-KATYP = ZGLCO-KATYP.                                            SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       KOKRS                         0001KA01_CO-KOKRS = ZGLCO-KOKRS.                                            SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       KSTAR                         0001KA01_CO-KSTAR = ZGLCO-KSTAR.                                            SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       TABNAME                       0001KA01_CO-TABNAME = 'KA01_CO'.                                            SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       TCODE                         0001KA01_CO-TCODE = 'KA01'.                                                 SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       __BEGIN_OF_RECORD__           0001KA01_CO = INIT_KA01_CO.                                                 SAIF        20190217
+/SAPDMC/LSOCOD                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO                       __END_OF_RECORD__             0001transfer_record.                                                        SAIF        20190217
+/SAPDMC/LSOFIL                Z_GL_CO        Z_GL_CO        Z_GL_CO        Z_GL_CO_Z_GL_CO_Z_GL_CO.lsmw.read                                                                                       Z_GL_CO_Z_GL_CO_Z_GL_CO.lsmw.conv
+/SAPDMC/LSOINP                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001FE/Users/saif/Documents/SAP/SAP Projects/Air Cargo Implementation in Qatar/Cost_Element_QA.txt                            Mass Cost Element             0000X 000000                                 X      X XX
+/SAPDMC/LSOINS                Z_GL_CO        Z_GL_CO        Z_GL_CO        ZGLCO                         0001
+/SAPDMC/LSOPAR                Z_GL_CO        Z_GL_CO        Z_GL_CO        SAIF        WILDCARDVALUE
+/SAPDMC/LSOPAR                Z_GL_CO        Z_GL_CO        Z_GL_CO        MAS_MAIN    WILDCARDVALUE
+/SAPDMC/LSOPAR                Z_GL_CO        Z_GL_CO        Z_GL_CO                    FROMLINE_READ                 0000000000
+/SAPDMC/LSOPAR                Z_GL_CO        Z_GL_CO        Z_GL_CO                    TOLINE_READ                   0000010000
+/SAPDMC/LSOPAR                Z_GL_CO        Z_GL_CO        Z_GL_CO                    FROMLINE_CONV                 0000000000
+/SAPDMC/LSOPAR                Z_GL_CO        Z_GL_CO        Z_GL_CO                    TOLINE_CONV                   0000010000
+/SAPDMC/LSOPAR                Z_GL_CO        Z_GL_CO        Z_GL_CO        PARTHA      WILDCARDVALUE
+/SAPDMC/LSOREC                Z_GL_CO        Z_GL_CO        Z_GL_CO        0001KA01_CO
+
+[Documentation    ]
