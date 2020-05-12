@@ -1,3 +1,3 @@
-#ABAP
+ABAP
 
-##Contains sample code for ABAP Programs
+Contains sample code for ABAP Programs
