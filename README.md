@@ -1,5 +1,5 @@
 # SAP
-An amalgamation of all SAP related tasks and projects I have done both in personal and professional capacity (details I am allowed to share).
+An amalgamation of all SAP related tasks and projects I have done both in personal and professional capacity (with permission from my company).
 
 Primary Projects:
 
@@ -11,6 +11,7 @@ These are the following projects for which I have acted in capacity of Project M
 4. MGH Group Budgeting using SAP PSM-FM (Fund Management).
 
 
-ABAP 
+Custom ABAP Programs
 
 1. Mass Customer Clearing with TDS
+2. Mass Invoice Download and Auto-mail for Air Cargo Freight Forwarder.
