@@ -9,3 +9,8 @@ These are the following projects for which I have acted in capacity of Project M
 2. SAP FICO Implementation of MGH Gallileo GSA in Nepal
 3. SAP FI-AA Implementation of MGH Operating Concern in Pakistan.
 4. MGH Group Budgeting using SAP PSM-FM (Fund Management).
+
+
+ABAP 
+
+1. Mass Customer Clearing with TDS
